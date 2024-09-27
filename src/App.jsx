@@ -17,9 +17,12 @@ function App() {
     <h1>Hello dunia</h1>
     <h1>{textUtama}</h1>
     <h1>{num1}</h1>
-    <Button>Test</Button>
+    <Button backgroundColor={"yellow"}>Test</Button>
+    <Button backgroundColor={"green"}>Hallo Button</Button>
+    <Button backgroundColor={"purple"}>Text Hello</Button>
+
+
     <div>{SendMassage()}</div>
-    {alert("Ngoding yang bener")}
     </>
   )
 }

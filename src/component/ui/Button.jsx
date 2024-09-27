@@ -1,6 +1,6 @@
-function Button () {
+function Button ({backgroundColor, children, onClick}) {
     return (
-        <button style={{backgroundColor: "purple", color: "white"}}></button>
+        <button onClick={onClick} style={{backgroundColor: backgroundColor, color: "white"}}>{children}</button>
     )
 }
 
