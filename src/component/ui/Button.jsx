@@ -1,6 +1,8 @@
-function Button ({backgroundColor, children, onClick}) {
+function Button ({backgroundColor, children, onClick, Loading}) {
     return (
-        <button onClick={onClick} style={{backgroundColor: backgroundColor, color: "white"}}>{children}</button>
+        <button onClick={onClick} style={{backgroundColor: backgroundColor, color: "white"}}>
+            {Loading === true? "Loading ..." : children}
+            </button>
     )
 }
 
